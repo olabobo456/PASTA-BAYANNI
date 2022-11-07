@@ -1,0 +1,24 @@
+.data{
+    border: 2px solid;
+    width: fit-content;
+}
+
+body{
+ background-color: ivory;
+}
+    .images{
+
+        display:flex;
+        gap: 5px;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 8px;
+margin: 1cm;
+    padding: 20px;
+    height: 100%;
+    width: 20%;
+    max-width: 500px;
+    }
+
+    .new{
+        border-radius: 10%;
+    }
